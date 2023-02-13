@@ -124,6 +124,7 @@ $conexion->close();
                                 <th scope="col">Género</th>
                                 <th scope="col">Número de bicis retiradas</th>
                             </tr>
+                        </thead>
                         <tbody>
                             @foreach ($data as $row)
                             <tr> 
@@ -133,7 +134,6 @@ $conexion->close();
                             </tr>
                             @endforeach
                         </tbody>
-                        </thead>
                     </table>
                     <table class="table table-striped table-light" style="flex-basis: 30%; text-align: center">
                         <thead class="thead-dark">
@@ -142,6 +142,7 @@ $conexion->close();
                                 <th scope="col">Rango de edad</th>
                                 <th scope="col">Número de bicis retiradas</th>
                             </tr>
+                        </thead>
                         <tbody>
                             @foreach ($data2 as $row)
                             <tr> 
@@ -151,7 +152,6 @@ $conexion->close();
                             </tr>
                             @endforeach
                         </tbody>
-                        </thead>
                     </table>
                 </div>
             </div>
