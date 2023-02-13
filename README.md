@@ -8,7 +8,7 @@ PHP >= 7.3
 Composer
 Node.js >= 10.x
 npm
-MySQL o cualquier otro motor de bases de datos compatible con Laravel
+MySQL
 
 ## Crear base de datos
 Abrir la línea de comandos de MySQL y ejecutar los siguientes comandos
